@@ -2,12 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
-h1{
-    background: linear-gradient(
-        to right,
-        red,
-        yellow
-    );
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000b3;
+    padding: 10px;
+
+}
+
+.logo{
+    color: #fff;
+    flex: 1;
+    margin-left: 20px;
+}
+
+nav{
+    flex: 5;
+    justify-content: right;
+    display: block;
+}
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.navbar-link{
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 40px;
+}
+
+.navbar-link:hover{
+    transition: all 0.4s ease;
+    color: #9999ff;
+}
+
+.current{
+    font-weight: bold;
 }
