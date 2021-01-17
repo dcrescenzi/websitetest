@@ -49,3 +49,55 @@ nav{
 .current{
     font-weight: bold;
 }
+
+.introduction{
+    background: linear-gradient(to right, #636363, #c9c9c9);
+    display: flex;
+    margin: 10px 10px;
+    height: 50vh;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.intro-wrapper{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+    align-items: left;
+    justify-content: center;
+}
+
+.intro-title{
+    font-size: 32px;
+
+    background: linear-gradient(to right, #00f, #f00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.intro-text{
+    font-size: 20px;
+}
+
+.intro-img{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-img img{
+    transition: all 0.3s ease;
+    height: 90%;
+    margin: 10px 10px;
+    border-radius: 2rem;
+}
+
+.intro-img img:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.025);
+}
